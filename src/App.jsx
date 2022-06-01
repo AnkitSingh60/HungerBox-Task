@@ -18,8 +18,15 @@ function App() {
       mobile,
       email,
     };
+
+    if(!name || !mobile || !email){
+      alert("Please fill all the input fields")
+    }else{
+      setDetails([...details, detail]);
+
+    }
+
     // console.log('detail:', detail)
-    setDetails([...details, detail]);
     setName("");
     setMobile("");
     setEmail("");
