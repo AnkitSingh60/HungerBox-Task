@@ -1,0 +1,135 @@
+* {
+  font-weight: 600;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.mainDiv {
+  border: 2px solid rgba(186, 184, 184, 0.332);
+  width: 30%;
+  margin: auto;
+  height: 100%;
+  margin-top: 10px;
+}
+.container {
+  width: 90%;
+  margin-left: 80px;
+}
+.box1 {
+  width: 80%;
+  height: 260px;
+  margin-top: 10px;
+}
+.heading1 {
+  border: 2px solid rgb(235, 229, 229);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 50px;
+  color: rgb(141, 24, 251);
+  margin-top: 2px;
+}
+.label {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(130, 128, 128);
+}
+.input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: gainsboro;
+  width: 100%;
+  margin-top: 5px;
+}
+::placeholder {
+  font-weight: 300;
+}
+.inputDiv {
+  margin-bottom: 10px;
+}
+.btnSubmit {
+  width: 50px;
+  height: 25px;
+  float: right;
+  color: white;
+  background-color: rgb(227, 202, 246);
+  color: #7c00bb;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.infoDiv {
+  height: 130px;
+}
+.infoDiv {
+  justify-content: space-around;
+  width: 80%;
+}
+.upperDiv {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+.nameL {
+  width: 40%;
+}
+.mobR {
+}
+.emailL {
+  height: 300px;
+  width: 80%;
+  height: 30px;
+  margin-top: -10px;
+}
+.lower {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+}
+.btnDel {
+  position: relative;
+  top: 30%;
+  left: 10%;
+  width: 50px;
+  height: 25px;
+  color: white;
+  background-color: rgb(227, 202, 246);
+  color: #7c00bb;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.text {
+  color: #7c00bb;
+  font-size: 16px;
+}
+.userDiv {
+  width: 90%;
+}
+hr {
+  width: 350px;
+  margin-right: 180px;
+}
+.h2{
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 1284px) {
+  .mainDiv {
+    height: 265px;
+    width: 100%;
+  }
+  .infoDiv {
+    width: 280px;
+  }
+  .h2{
+    font-size: 10px;
+  }
+  .mainDiv{
+    border: none;
+  }
+  
+}
